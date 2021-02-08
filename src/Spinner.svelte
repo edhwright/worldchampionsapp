@@ -1,0 +1,21 @@
+<style>
+  .loader {
+    border: 8px solid white; /* Light grey */
+    border-top: 8px solid rgb(255, 134, 106); /* Blue */
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    animation: spin 2s linear infinite;
+  }
+
+  @keyframes spin {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+</style>
+
+<div class="loader" />
